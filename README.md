@@ -2,17 +2,10 @@
 
 This repository contains the practical work of my bachelor thesis. It includes:
 
-- `19th_century_kurrent.mlmodel`: A Handwritten Text Recognition (HTR) model trained to recognize 19th-century German Kurrent script
+- 4 trained models, three with kraken and one with calamari in the Models folder
 - A detailed description and link to the ground truth dataset used for training
 - The Line Extractor tool for extracting segmented lines from PageXML files and corresponding images
-- Evaluation results and description of datasets used for testing and validating the model
-
-The model was trained using Kraken. As a starting point, I fine-tuned the German Handwriting base model. Training was performed in two fine-tuning steps. Initial fine-tuning were the base model was adapted to the dataset. Second fine-tuning were the training was continued on the same dataset, starting from the weights of the already fine-tuned model, which achieved a better CER.
-
-The training was executed with the following command: 
-```
-ketos --device cuda:0 --precision bf16-mixed train -f page -t train.lst -e val.lst -i best_model_of_fine_tuning_german_handwriting.mlmodel --logger tensorboard --min-epochs 20 --resize new -B 4 -r 0.0001 -u NFD --schedule cosine
-```
+- Evaluation results and description of datasets used for testing and validating the models
 
 
 ## Ground Truth Data used for model training
