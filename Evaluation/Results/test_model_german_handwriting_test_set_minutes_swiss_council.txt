@@ -1,59 +1,59 @@
 Loading model german_handwriting.mlmodel	✓
 Evaluating german_handwriting.mlmodel
-Evaluating ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 2749/2749 0:00:00 0:05:08
+Evaluating ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 2749/2749 0:00:00 0:06:36
 === report  ===
 
-116133	Characters
-25500	Errors
-78.04%	Character Accuracy
-78.39%	Character Accuracy (Case-insensitive)
+116136	Characters
+25513	Errors
+78.03%	Character Accuracy
+78.38%	Character Accuracy (Case-insensitive)
 43.51%	Word Accuracy
 
-8420	Insertions
-1712	Deletions
-15368	Substitutions
+8427	Insertions
+1711	Deletions
+15375	Substitutions
 
 Count	Missed	%Right
-20738	3124	84.94%	Common
-94080	19349	79.43%	Latin
-1289	1289	0.00%	Inherited
+20752	3128	84.93%	Common
+94068	19358	79.42%	Latin
+1290	1290	0.00%	Inherited
 26	26	0.00%	Greek
 
 Errors	Correct-Generated
 1022	{ COMBINING DIAERESIS } - {  }
 686	{ s } - {  }
-618	{ t } - {  }
-611	{ e } - {  }
+620	{ t } - {  }
+610	{ e } - {  }
 507	{ s } - { ſ }
-455	{ . } - {  }
-420	{ r } - {  }
-411	{ h } - {  }
+454	{ . } - {  }
+422	{ r } - {  }
+412	{ h } - {  }
 405	{ e } - { a }
 392	{ u } - { ü }
 363	{ SPACE } - {  }
 353	{ n } - {  }
 335	{ i } - {  }
 324	{ l } - {  }
-311	{ a } - { ä }
+312	{ a } - { ä }
 246	{  } - { e }
-238	{ u } - { n }
+239	{ u } - { n }
 220	{ a } - { e }
 218	{ d } - {  }
-200	{ a } - {  }
-194	{ u } - {  }
-186	{ m } - { n }
+201	{ a } - {  }
+195	{ u } - {  }
+187	{ m } - { n }
 182	{ o } - { e }
 181	{ ¬ } - {  }
-177	{ , } - {  }
+178	{ , } - {  }
 177	{ c } - {  }
 174	{ r } - { n }
-166	{ o } - {  }
+167	{ o } - {  }
 158	{ t } - { d }
 152	{  } - { n }
+152	{ n } - { m }
 152	{ e } - { n }
-151	{ n } - { m }
 150	{ c } - { d }
-148	{ u } - { i }
+149	{ u } - { i }
 146	{ r } - { e }
 145	{ u } - { e }
 143	{  } - { r }
@@ -65,11 +65,11 @@ Errors	Correct-Generated
 109	{ z } - { g }
 106	{ n } - { r }
 103	{ s } - { r }
-102	{ e } - { o }
 100	{ i } - { d }
 99	{  } - { SPACE }
 99	{ o } - { ö }
-96	{ z } - {  }
+98	{ e } - { o }
+95	{ z } - {  }
 95	{ s } - { d }
 92	{  } - { d }
 92	{ n } - { u }
@@ -78,8 +78,8 @@ Errors	Correct-Generated
 90	{ p } - { g }
 89	{ s } - { h }
 89	{  } - { , }
+88	{ D } - { d }
 87	{ e } - { d }
-87	{ D } - { d }
 84	{ n } - { e }
 83	{ l } - { t }
 83	{ k } - {  }
@@ -98,19 +98,19 @@ Errors	Correct-Generated
 67	{ t } - { r }
 66	{  } - { t }
 66	{ e } - { r }
-66	{ s } - { o }
+65	{ s } - { o }
 64	{ c } - { g }
 64	{ , } - { . }
 63	{ o } - { a }
 60	{ c } - { e }
 58	{ s } - { z }
-55	{ t } - { s }
+56	{ t } - { s }
 55	{ f } - { t }
 53	{ s } - { f }
 51	{ a } - { n }
 50	{ a } - { o }
-49	{  } - { l }
 48	{ : } - {  }
+48	{  } - { l }
 48	{ p } - {  }
 48	{ v } - { r }
 47	{ f } - { h }
@@ -133,12 +133,12 @@ Errors	Correct-Generated
 40	{ d } - { i }
 40	{ k } - { l }
 40	{ t } - { i }
-40	{ s } - { g }
 40	{ a } - { i }
 40	{ t } - { n }
 39	{ h } - { f }
 39	{ 1 } - {  }
 39	{ 0 } - {  }
+39	{ s } - { g }
 39	{ v } - {  }
 38	{ r } - { d }
 38	{ P } - { S }
@@ -150,19 +150,19 @@ Errors	Correct-Generated
 35	{ f } - { d }
 35	{ e } - { m }
 35	{ i } - { r }
+35	{  } - { c }
 35	{ . } - { , }
 35	{ n } - { i }
 34	{ l } - { e }
-34	{  } - { c }
 34	{ i } - { m }
 34	{  } - { a }
 33	{ l } - { n }
 33	{ h } - { z }
+33	{ r } - { a }
 33	{ COMBINING DIAERESIS } - { d }
 33	{ i } - { a }
 33	{  } - { u }
 32	{ R } - { K }
-32	{ r } - { a }
 31	{ s } - { l }
 31	{ h } - { k }
 31	{ s } - { ß }
@@ -187,10 +187,10 @@ Errors	Correct-Generated
 26	{ 9 } - {  }
 25	{ e } - { g }
 25	{ G } - { H }
+25	{ 5 } - { 3 }
 25	{ h } - { ſ }
 25	{ r } - { o }
 24	{ o } - { d }
-24	{ 5 } - { 3 }
 24	{ d } - { D }
 24	{ . } - { ¬ }
 24	{  } - { ¬ }
@@ -200,11 +200,11 @@ Errors	Correct-Generated
 23	{ ß } - {  }
 23	{ b } - { t }
 22	{ ¬ } - { . }
+22	{ SPACE } - { e }
 22	{ B } - {  }
 22	{  } - { ſ }
 22	{ w } - { e }
 21	{ o } - { n }
-21	{ SPACE } - { e }
 21	{ COMBINING DIAERESIS } - { t }
 21	{ S } - { K }
 21	{ I } - { J }
@@ -227,9 +227,7 @@ Errors	Correct-Generated
 19	{  } - { m }
 19	{ o } - { r }
 19	{ A } - { a }
-19	{  } - { „ }
 19	{ h } - { s }
-18	{ f } - { s }
 18	{ ( } - {  }
 18	{ P } - {  }
 18	{ K } - { R }
@@ -241,9 +239,10 @@ Errors	Correct-Generated
 18	{ 5 } - {  }
 18	{ 7 } - {  }
 18	{ f } - { e }
+18	{  } - { „ }
 18	{ w } - { r }
 17	{ N } - { S }
-17	{ k } - { h }
+17	{ f } - { s }
 17	{ K } - { T }
 17	{ s } - { p }
 17	{ d } - { u }
@@ -257,6 +256,7 @@ Errors	Correct-Generated
 16	{ r } - { u }
 16	{ e } - { t }
 16	{ z } - { n }
+16	{ k } - { h }
 16	{ COMBINING DIAERESIS } - { e }
 16	{ f } - { ſ }
 16	{  } - { b }
@@ -284,7 +284,6 @@ Errors	Correct-Generated
 14	{ s } - { Z }
 14	{ i } - { w }
 14	{ k } - { e }
-14	{ b } - { v }
 14	{ COMBINING DIAERESIS } - { r }
 14	{ r } - { c }
 14	{ h } - { r }
@@ -300,6 +299,7 @@ Errors	Correct-Generated
 14	{  } - { z }
 14	{ B } - { G }
 14	{ B } - { T }
+14	{ T } - { S }
 14	{ g } - { n }
 14	{ G } - { J }
 13	{ s } - { SPACE }
@@ -310,9 +310,11 @@ Errors	Correct-Generated
 13	{ 6 } - {  }
 13	{ h } - { a }
 13	{ I } - {  }
+13	{ b } - { v }
 13	{ 8 } - { 2 }
 13	{ b } - { o }
 13	{ 6 } - { 0 }
+13	{ COMBINING DIAERESIS } - { l }
 13	{ l } - { b }
 13	{ t } - { k }
 13	{ S } - { T }
@@ -320,7 +322,7 @@ Errors	Correct-Generated
 13	{ A } - { W }
 13	{ e } - { w }
 13	{ p } - { e }
-13	{ T } - { S }
+13	{ J } - {  }
 13	{ P } - { T }
 12	{ G } - { g }
 12	{ B } - { D }
@@ -336,17 +338,14 @@ Errors	Correct-Generated
 12	{ K } - { k }
 12	{ w } - { i }
 12	{ c } - { z }
-12	{ COMBINING DIAERESIS } - { l }
 12	{ M } - { N }
 12	{ b } - { n }
 12	{ z } - { Z }
 12	{ a } - { g }
 12	{ β } - { ß }
 12	{ d } - { T }
-12	{ z } - { r }
 12	{ v } - { a }
 12	{ o } - { m }
-12	{ J } - {  }
 12	{ ; } - { . }
 12	{ K } - { A }
 12	{ M } - { S }
@@ -356,6 +355,7 @@ Errors	Correct-Generated
 12	{ R } - { A }
 11	{ . } - { e }
 11	{ p } - { c }
+11	{ l } - { s }
 11	{ ¬ } - { ‗ }
 11	{ b } - { l }
 11	{ F } - {  }
@@ -366,6 +366,7 @@ Errors	Correct-Generated
 11	{  } - { f }
 11	{ i } - { c }
 11	{ COMBINING ACUTE ACCENT } - {  }
+11	{ z } - { r }
 11	{ V } - { T }
 11	{ d } - { F }
 11	{ G } - { S }
@@ -377,7 +378,6 @@ Errors	Correct-Generated
 10	{ d } - { v }
 10	{ f } - { c }
 10	{ A } - { U }
-10	{ l } - { s }
 10	{ g } - { o }
 10	{ b } - { w }
 10	{ d } - { A }
@@ -734,6 +734,7 @@ Errors	Correct-Generated
 4	{ COMBINING DIAERESIS } - { h }
 4	{ n } - { b }
 4	{ h } - { E }
+4	{ f } - { J }
 4	{ N } - { d }
 4	{ b } - { T }
 4	{ COMBINING BREVE } - {  }
@@ -882,9 +883,9 @@ Errors	Correct-Generated
 3	{ 2 } - { v }
 3	{ b } - { i }
 3	{ g } - { ¬ }
+3	{ 5 } - { z }
 3	{ A } - { v }
 3	{ Z } - { F }
-3	{ f } - { J }
 3	{ ß } - { ſ }
 3	{ b } - { A }
 3	{ 8 } - { t }
@@ -963,7 +964,6 @@ Errors	Correct-Generated
 3	{ B } - { K }
 3	{ d } - { z }
 3	{  } - { ß }
-3	{ H } - { t }
 3	{ B } - { F }
 3	{ z } - { s }
 2	{ h } - { F }
@@ -1090,7 +1090,8 @@ Errors	Correct-Generated
 2	{ ( } - { i }
 2	{ 6 } - { s }
 2	{ v } - { c }
-2	{ 5 } - { z }
+2	{ 2 } - { B }
+2	{ q } - { n }
 2	{ i } - { ¬ }
 2	{ C } - { m }
 2	{ M } - { ( }
@@ -1190,6 +1191,7 @@ Errors	Correct-Generated
 2	{ G } - { T }
 2	{ r } - { z }
 2	{ S } - { N }
+2	{ p } - { i }
 2	{ J } - { j }
 2	{ E } - { i }
 2	{ V } - { D }
@@ -1262,6 +1264,7 @@ Errors	Correct-Generated
 2	{ h } - { p }
 2	{  } - { H }
 2	{ B } - { t }
+2	{ H } - { t }
 2	{ z } - { J }
 2	{ Z } - { v }
 2	{ 6 } - { 2 }
@@ -1433,8 +1436,6 @@ Errors	Correct-Generated
 1	{ n } - { ü }
 1	{ m } - { ü }
 1	{ R } - { b }
-1	{ 2 } - { B }
-1	{ q } - { n }
 1	{ I } - { T }
 1	{ F } - { i }
 1	{ : } - { 1 }
@@ -1624,7 +1625,6 @@ Errors	Correct-Generated
 1	{ ß } - { z }
 1	{ N } - { l }
 1	{ f } - { SPACE }
-1	{ p } - { i }
 1	{ ’ } - { đ }
 1	{ U } - { E }
 1	{ g } - { A }
@@ -2066,5 +2066,5 @@ Errors	Correct-Generated
 1	{ Z } - { E }
 1	{ - } - { – }
 
-Average character accuracy: 78.04%, (stddev: 0.00)
+Average character accuracy: 78.03%, (stddev: 0.00)
 Average word accuracy: 43.51%, (stddev: 0.00)

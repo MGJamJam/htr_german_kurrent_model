@@ -1,6 +1,6 @@
 Loading model german_handwriting.mlmodel	✓
 Evaluating german_handwriting.mlmodel
-Evaluating ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 154/154 0:00:00 0:00:15
+Evaluating ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 154/154 0:00:00 0:00:17
 === report  ===
 
 6020	Characters

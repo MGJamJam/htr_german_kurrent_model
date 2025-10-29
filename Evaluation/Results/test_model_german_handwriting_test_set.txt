@@ -1,124 +1,125 @@
 Loading model german_handwriting.mlmodel	✓
 Evaluating german_handwriting.mlmodel
-Evaluating ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 640/640 0:00:00 0:01:31
+Evaluating ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 640/640 0:00:00 0:01:47
 === report  ===
 
-21147	Characters
-3573	Errors
-83.10%	Character Accuracy
-83.50%	Character Accuracy (Case-insensitive)
-54.15%	Word Accuracy
+21078	Characters
+3574	Errors
+83.04%	Character Accuracy
+83.43%	Character Accuracy (Case-insensitive)
+53.94%	Word Accuracy
 
-1059	Insertions
-269	Deletions
-2245	Substitutions
+1053	Insertions
+274	Deletions
+2247	Substitutions
 
 Count	Missed	%Right
-3832	337	91.21%	Common
-17005	2682	84.23%	Latin
-310	285	8.06%	Inherited
+3832	334	91.28%	Common
+16943	2687	84.14%	Latin
+303	279	7.92%	Inherited
 
 Errors	Correct-Generated
-212	{ COMBINING DIAERESIS } - {  }
-106	{ s } - { ſ }
-80	{ u } - { ü }
-78	{ n } - {  }
-78	{ e } - {  }
-69	{ r } - {  }
-69	{ a } - { ä }
-60	{ a } - { e }
-57	{ t } - {  }
+208	{ COMBINING DIAERESIS } - {  }
+109	{ s } - { ſ }
+80	{ e } - {  }
+77	{ n } - {  }
+75	{ u } - { ü }
+70	{ a } - { ä }
+68	{ r } - {  }
+61	{ a } - { e }
+55	{ t } - {  }
 51	{ h } - {  }
-49	{ SPACE } - {  }
+47	{ SPACE } - {  }
 41	{ i } - {  }
-38	{ o } - { ö }
-38	{  } - { e }
-37	{ c } - {  }
-35	{ n } - { r }
+39	{  } - { e }
+37	{ o } - { ö }
+36	{ c } - {  }
 34	{ s } - {  }
 34	{ . } - {  }
-31	{ d } - {  }
+32	{ d } - {  }
+32	{ n } - { r }
+31	{ e } - { a }
 31	{ l } - {  }
 29	{ r } - { n }
-29	{ e } - { a }
-28	{ - } - {  }
-27	{ e } - { n }
-27	{ m } - { n }
-26	{ o } - { e }
-26	{ a } - { o }
+29	{ e } - { n }
+28	{ m } - { n }
+27	{ - } - {  }
+27	{ a } - { o }
 26	{ D } - { d }
-26	{ , } - {  }
-25	{  } - { n }
-23	{ u } - { n }
+25	{ , } - {  }
+24	{ o } - { e }
+22	{ n } - { m }
+22	{  } - { r }
+22	{  } - { n }
+21	{ u } - { n }
 21	{ t } - { l }
-21	{  } - { r }
 21	{  } - { . }
-20	{ n } - { m }
-20	{ u } - { e }
+19	{ u } - { e }
 19	{ u } - {  }
-18	{ a } - {  }
+18	{ e } - { i }
 18	{ r } - { e }
+18	{  } - { SPACE }
+17	{ a } - {  }
 17	{ s } - { t }
-17	{ e } - { i }
 17	{  } - { i }
-17	{  } - { SPACE }
 16	{ u } - { i }
 16	{ e } - { r }
+15	{  } - { h }
 14	{ o } - {  }
-14	{  } - { h }
 14	{ i } - { u }
+13	{ s } - { e }
 13	{ s } - { f }
 13	{ h } - { ſ }
 13	{ n } - { e }
-13	{  } - { t }
-12	{ s } - { e }
-12	{  } - { c }
 12	{ i } - { e }
+12	{  } - { t }
+12	{ n } - { a }
 12	{ n } - { u }
-11	{ m } - {  }
-11	{ t } - { e }
+11	{ b } - {  }
+11	{  } - { c }
+11	{ e } - { m }
 11	{ e } - { u }
-11	{ n } - { a }
+11	{ e } - { c }
 11	{ s } - { c }
-11	{ B } - { b }
-10	{ b } - {  }
+10	{ m } - {  }
 10	{  } - { d }
-10	{ e } - { m }
+10	{ g } - {  }
 10	{ v } - { r }
-10	{ e } - { c }
-10	{ f } - { ſ }
-9	{ g } - {  }
+10	{ w } - { m }
+10	{ B } - { b }
 9	{ i } - { ü }
+9	{ t } - { e }
 9	{  } - { w }
 9	{ k } - { t }
+9	{ f } - { ſ }
 9	{ k } - {  }
-9	{  } - { , }
+9	{ u } - { a }
 8	{ l } - { t }
-8	{ c } - { n }
 8	{ e } - { o }
 8	{ s } - { n }
 8	{ o } - { a }
 8	{ a } - { r }
-8	{ w } - { m }
 8	{ z } - {  }
-8	{ o } - { r }
+8	{  } - { , }
+8	{ COMBINING TILDE } - {  }
 8	{ z } - { g }
-8	{ u } - { a }
+8	{  } - { ſ }
+8	{  } - { s }
+8	{ t } - { s }
 8	{ ‗ } - {  }
 8	{ - } - { ¬ }
 7	{ d } - { T }
 7	{ r } - { i }
 7	{ t } - { d }
+7	{ COMBINING DIAERESIS } - { r }
 7	{ s } - { d }
+7	{ c } - { n }
 7	{ f } - {  }
 7	{ SPACE } - { e }
 7	{  } - { a }
 7	{ p } - { g }
-7	{ COMBINING TILDE } - {  }
-7	{ I } - { J }
-7	{  } - { ſ }
 7	{ t } - { k }
-7	{ t } - { s }
+7	{ i } - { l }
 7	{ ß } - {  }
 7	{ c } - { g }
 7	{ e } - { . }
@@ -127,45 +128,46 @@ Errors	Correct-Generated
 6	{ d } - { t }
 6	{ m } - { r }
 6	{ e } - { ü }
-6	{ COMBINING DIAERESIS } - { r }
 6	{ n } - { i }
 6	{ l } - { d }
 6	{ i } - { d }
+6	{ 1 } - {  }
 6	{ u } - { d }
 6	{ COMBINING DIAERESIS } - { n }
 6	{ c } - { e }
 6	{ s } - { h }
+6	{ o } - { r }
 6	{ r } - { o }
+6	{ I } - { J }
 6	{ COMBINING DIAERESIS } - { i }
-6	{ i } - { l }
-6	{  } - { s }
+6	{ a } - { n }
+6	{  } - { g }
+6	{ k } - { l }
+6	{ i } - { r }
+6	{  } - { „ }
+6	{ - } - { . }
 6	{ COMBINING MACRON } - {  }
+6	{ ; } - {  }
 5	{ a } - { v }
 5	{ d } - { v }
 5	{ i } - { n }
 5	{ g } - { z }
+5	{ d } - { i }
 5	{ l } - { r }
 5	{ o } - { i }
 5	{ I } - {  }
 5	{ e } - { p }
 5	{ e } - { t }
 5	{ l } - { a }
-5	{ 1 } - {  }
 5	{  } - { o }
 5	{ i } - { m }
 5	{ . } - { , }
-5	{ a } - { n }
-5	{  } - { g }
-5	{ k } - { l }
-5	{ i } - { r }
+5	{ n } - { v }
 5	{ a } - { i }
-5	{  } - { „ }
-5	{ r } - { s }
 5	{ , } - { . }
 5	{ y } - { g }
-5	{ - } - { . }
 5	{ H } - { h }
-5	{ ; } - {  }
+5	{ - } - { „ }
 5	{ c } - { t }
 4	{ s } - { z }
 4	{ s } - { r }
@@ -173,7 +175,6 @@ Errors	Correct-Generated
 4	{ e } - { w }
 4	{ a } - { t }
 4	{ m } - { w }
-4	{ d } - { i }
 4	{ f } - { t }
 4	{ m } - { e }
 4	{ s } - { i }
@@ -191,20 +192,15 @@ Errors	Correct-Generated
 4	{ K } - { ſ }
 4	{  } - { u }
 4	{ 7 } - { 1 }
-4	{ A } - { a }
 4	{ w } - { r }
 4	{ l } - { e }
-4	{ ſ } - { h }
-4	{ 2 } - { 8 }
-4	{ , } - { n }
-4	{ COMBINING DIAERESIS } - { ſ }
+4	{  } - { z }
 4	{ r } - { t }
-4	{ : } - { . }
 4	{ i } - { t }
 4	{ ſ } - { s }
 4	{ f } - { s }
 4	{ ; } - { , }
-4	{ - } - { „ }
+4	{ r } - { s }
 4	{ n } - { . }
 3	{ r } - { a }
 3	{ o } - { m }
@@ -226,6 +222,7 @@ Errors	Correct-Generated
 3	{ w } - { n }
 3	{ F } - { W }
 3	{ r } - { d }
+3	{ w } - { v }
 3	{ R } - { W }
 3	{ w } - { a }
 3	{ h } - { r }
@@ -237,12 +234,11 @@ Errors	Correct-Generated
 3	{ r } - { g }
 3	{ V } - { v }
 3	{ s } - { g }
-3	{ p } - { e }
 3	{ h } - { e }
 3	{ l } - { h }
-3	{ n } - { v }
 3	{ 7 } - { 4 }
-3	{ e } - { l }
+3	{ A } - { a }
+3	{ e } - { ‗ }
 3	{ u } - { t }
 3	{ COMBINING DIAERESIS } - { f }
 3	{ ß } - { s }
@@ -253,17 +249,16 @@ Errors	Correct-Generated
 3	{ s } - { b }
 3	{ n } - { g }
 3	{ f } - { F }
-3	{ g } - { x }
-3	{ COMBINING DIAERESIS } - { ß }
 3	{  } - { : }
-3	{ P } - { S }
 3	{ . } - { : }
 3	{ = } - {  }
+3	{ T } - { H }
+3	{ : } - { . }
 3	{ ſ } - {  }
 3	{ h } - { , }
 3	{ f } - { h }
+3	{ COMBINING DIAERESIS } - { ſ }
 3	{ b } - { k }
-3	{  } - { z }
 3	{ ; } - { . }
 3	{ 8 } - {  }
 3	{ F } - { d }
@@ -302,7 +297,6 @@ Errors	Correct-Generated
 2	{ V } - { T }
 2	{ r } - { w }
 2	{ e } - { ß }
-2	{ w } - { v }
 2	{ e } - { SPACE }
 2	{ 9 } - {  }
 2	{ l } - { n }
@@ -315,6 +309,7 @@ Errors	Correct-Generated
 2	{ b } - { w }
 2	{ d } - { u }
 2	{ D } - { F }
+2	{ p } - { e }
 2	{ r } - { l }
 2	{ B } - { V }
 2	{ ß } - { c }
@@ -326,14 +321,19 @@ Errors	Correct-Generated
 2	{ P } - { F }
 2	{ - } - { ‗ }
 2	{ s } - { l }
+2	{ H } - { B }
 2	{ z } - { ſ }
 2	{ G } - { H }
-2	{ N } - { M }
-2	{ e } - { ‗ }
+2	{ e } - { l }
+2	{ d } - { O }
+2	{ s } - { j }
+2	{ L } - { K }
+2	{ h } - { E }
 2	{ COMBINING DIAERESIS } - { ä }
 2	{ R } - { K }
 2	{ M } - { m }
 2	{ h } - { f }
+2	{ i } - { h }
 2	{ COMBINING TILDE } - { COMBINING MACRON }
 2	{ t } - { h }
 2	{ T } - { t }
@@ -344,27 +344,31 @@ Errors	Correct-Generated
 2	{ c } - { b }
 2	{ w } - { SPACE }
 2	{ E } - { F }
+2	{ c } - { k }
+2	{ - } - { h }
 2	{ t } - { b }
 2	{  } - { l }
 2	{ F } - { ſ }
-2	{ d } - { c }
+2	{ M } - { N }
 2	{ a } - { A }
-2	{ u } - { I }
-2	{ COMBINING MACRON } - { n }
-2	{ f } - { d }
+2	{ — } - {  }
+2	{ , } - { ‗ }
+2	{  } - { 8 }
 2	{ s } - { S }
 2	{ S } - {  }
+2	{ u } - { . }
+2	{ w } - { e }
+2	{ P } - { S }
+2	{ ſ } - { h }
 2	{ 5 } - { 3 }
 2	{ h } - { s }
 2	{ p } - { c }
-2	{ COMBINING DIAERESIS } - { u }
 2	{ SPACE } - { i }
 2	{ COMBINING DIAERESIS } - { s }
 2	{ I } - { S }
 2	{ COMBINING DIAERESIS } - { m }
 2	{ h } - { g }
 2	{ A } - {  }
-2	{ T } - { H }
 2	{ k } - { f }
 2	{ h } - { z }
 2	{ r } - { v }
@@ -373,21 +377,22 @@ Errors	Correct-Generated
 2	{ o } - { ä }
 2	{ i } - { ¬ }
 2	{ s } - { F }
-2	{ K } - { S }
 2	{ U } - { A }
 2	{ ſ } - { S }
 2	{ u } - { c }
 2	{ b } - { t }
 2	{ _ } - {  }
+2	{ , } - { n }
+2	{ COMBINING DIAERESIS } - { ß }
 2	{ SPACE } - { r }
 2	{ S } - { N }
-2	{ 3 } - { 8 }
 2	{ 6 } - { b }
 2	{ b } - { l }
 2	{ R } - { D }
 2	{ = } - { ‗ }
 2	{ z } - { e }
 2	{ c } - { r }
+2	{ 2 } - { 8 }
 2	{ z } - { i }
 2	{ d } - { o }
 2	{ W } - { S }
@@ -396,6 +401,7 @@ Errors	Correct-Generated
 2	{ T } - { L }
 2	{ P } - { f }
 2	{ f } - { z }
+2	{ g } - { x }
 2	{ COMBINING TILDE } - { l }
 2	{ - } - { – }
 1	{ N } - { W }
@@ -515,7 +521,6 @@ Errors	Correct-Generated
 1	{ SPACE } - { f }
 1	{ I } - { o }
 1	{ n } - { l }
-1	{ H } - { B }
 1	{ COMBINING DIAERESIS } - { l }
 1	{ r } - { ſ }
 1	{ ⅓ } - { 3 }
@@ -524,10 +529,7 @@ Errors	Correct-Generated
 1	{ – } - { SPACE }
 1	{ 3 } - { 5 }
 1	{ ° } - {  }
-1	{ d } - { O }
-1	{ s } - { j }
-1	{ L } - { K }
-1	{ h } - { E }
+1	{ N } - { M }
 1	{ h } - { ß }
 1	{ t } - { o }
 1	{ B } - { ſ }
@@ -537,7 +539,6 @@ Errors	Correct-Generated
 1	{ B } - { F }
 1	{ e } - { , }
 1	{ F } - { f }
-1	{ i } - { h }
 1	{ F } - { e }
 1	{ a } - { l }
 1	{ r } - { k }
@@ -548,8 +549,6 @@ Errors	Correct-Generated
 1	{ t } - { u }
 1	{ a } - { s }
 1	{ COMBINING TILDE } - { d }
-1	{ c } - { k }
-1	{ - } - { h }
 1	{ z } - { , }
 1	{ F } - { J }
 1	{ z } - { t }
@@ -570,7 +569,6 @@ Errors	Correct-Generated
 1	{ „ } - { &#34; }
 1	{ P } - {  }
 1	{ R } - {  }
-1	{  } - { 8 }
 1	{ c } - { s }
 1	{ . } - { ‗ }
 1	{ &amp; } - { a }
@@ -600,13 +598,13 @@ Errors	Correct-Generated
 1	{ 6 } - { 0 }
 1	{ &amp; } - {  }
 1	{ 6 } - { 4 }
-1	{ M } - { N }
 1	{ 4 } - { 7 }
 1	{ P } - { T }
 1	{ t } - { ß }
 1	{ I } - { s }
 1	{ k } - { L }
 1	{ e } - { ¬ }
+1	{ COMBINING DIAERESIS } - { u }
 1	{ A } - { U }
 1	{ B } - { k }
 1	{ w } - { b }
@@ -618,9 +616,8 @@ Errors	Correct-Generated
 1	{ V } - { K }
 1	{ SPACE } - { a }
 1	{ i } - { „ }
-1	{ u } - { . }
-1	{ w } - { e }
 1	{ g } - { q }
+1	{ f } - { d }
 1	{ v } - { y }
 1	{ K } - { F }
 1	{ COMBINING ACUTE ACCENT } - {  }
@@ -645,7 +642,9 @@ Errors	Correct-Generated
 1	{ - } - { i }
 1	{ U } - { Ü }
 1	{ S } - { W }
+1	{ K } - { S }
 1	{ o } - { g }
+1	{ COMBINING MACRON } - { n }
 1	{ SPACE } - { n }
 1	{ R } - { b }
 1	{ w } - { f }
@@ -660,8 +659,6 @@ Errors	Correct-Generated
 1	{ ſ } - { C }
 1	{ B } - { R }
 1	{ K } - { N }
-1	{ — } - {  }
-1	{ , } - { ‗ }
 1	{ J } - { D }
 1	{ „ } - { SPACE }
 1	{ k } - { b }
@@ -709,8 +706,10 @@ Errors	Correct-Generated
 1	{ p } - { . }
 1	{ = } - { ſ }
 1	{ § } - { l }
+1	{ d } - { c }
 1	{ B } - { o }
 1	{ ŧ } - { t }
+1	{ 3 } - { 8 }
 1	{ 8 } - { H }
 1	{ J } - { i }
 1	{ ŧ } - { k }
@@ -790,6 +789,7 @@ Errors	Correct-Generated
 1	{ m } - { M }
 1	{ p } - { x }
 1	{ o } - { ¬ }
+1	{ u } - { I }
 1	{ B } - { S }
 1	{ o } - { b }
 1	{ f } - { R }
@@ -808,5 +808,5 @@ Errors	Correct-Generated
 1	{ m } - { l }
 1	{ x } - { æ }
 
-Average character accuracy: 83.10%, (stddev: 0.00)
-Average word accuracy: 54.15%, (stddev: 0.00)
+Average character accuracy: 83.04%, (stddev: 0.00)
+Average word accuracy: 53.94%, (stddev: 0.00)
